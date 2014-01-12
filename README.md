@@ -1,5 +1,3 @@
-HTML5 Intervalometer
-
 #Description#
 HTML5 Intervalometer is a web app that turns your webcam or other device via getUserMedia() into an intervalometer of which can be used to make timelapse videos.
 
@@ -27,7 +25,7 @@ Navigate to localhost:3011 in the browser
 
 **Note:**
 
-Please use Chrome as the browser. There is a bug with the drawImage() function in Firefox and I haven't tested in other browsers.
+*Please use Chrome as the browser. There is a bug with the drawImage() function in Firefox and I haven't tested in other browsers.*
 
 Allow the app to get control of your webcam or other device
 
@@ -52,4 +50,6 @@ to get a list of available formats and
   $ ffmpeg -pix_fmts
 ````
 to get a list of available color profiles.
+
+You can adjust the interval of the camera by adjusting the setInterval() function in public/js/index.js (remember to do $ browserify -o bundle.js ./index.js).
 
