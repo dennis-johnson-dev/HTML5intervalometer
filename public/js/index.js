@@ -8,7 +8,6 @@ getUserMedia({video: true, audio: false}, function (err, stream) {
       console.log('got a stream');
       var video = document.getElementById("video");
 
-      // window.URL = window.URL || window.webkitURL || window.mozURL;
       var vendorURL = window.URL || window.webkitURL || window.mozURL;
       video.src = vendorURL.createObjectURL(stream);
 
