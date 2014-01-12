@@ -25,7 +25,8 @@ Start the server
 
 Navigate to localhost:3011 in the browser
 
-*Note:*
+**Note:**
+
 Please use Chrome as the browser. There is a bug with the drawImage() function in Firefox and I haven't tested in other browsers.
 
 Allow the app to get control of your webcam or other device
